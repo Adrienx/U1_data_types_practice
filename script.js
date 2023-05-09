@@ -4,12 +4,17 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
-
+const myFavoriteSong = 'Ratata by Skrillex'
+console.log("My favorite song is " + myFavoriteSong);
 /*
  * Prompt 2:
  *
  * Declare 3 variables using each of let, const, and var, then console.log each of them
  */
+let myage = 34
+const myName =  "Adrien"
+var myCurrentFavSong = "Ratata by Skrillex"
+console.log( myage + " " + myName +" " + myCurrentFavSong )
 
 /*
  * Prompt 3:
@@ -21,6 +26,15 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+// Create a variable and assign a number to it
+let myNumber = 10;
+
+console.log(myNumber + 5);
+console.log(myNumber - 3);
+console.log(myNumber * 3);
+console.log(myNumber / 7);
+console.log(myNumber % 2);
+
 
 /*
  * Prompt 4:
@@ -33,6 +47,11 @@
  * and lastName variables.
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
+
+const firstName = "Adrien"
+const lastName = "Le Gendre"
+const fullName = ( firstName +" "+ lastName);
+console.log("hello my name is..." + fullName);
 
 
 /* Arrays */
@@ -55,6 +74,16 @@ let array3 = [
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
 
+
+// array1
+console.log(array1[2]);
+// array2
+console.log(array2[1][1]);
+// array3
+console.log(array3[1][1][1][0]);
+
+
+
 /*
  * Prompt 2:
  *
@@ -62,6 +91,7 @@ let array3 = [
  */
 
 let array4 = ['a', 'b', 'c', 'd', 'e'];
+console.log(array4[array4.length-2])
 
 /*
  * Prompt 3:
@@ -76,10 +106,18 @@ let cathleen = ['Cathleen', 186, 'New York'];
 
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
+thom[0] = "Tom";
+console.log(thom);
 
 // Karolin just had her birthday; change Karolin's array to reflect her being
 // a year older.
-
+karolin[1] = 16 +1;
+console.log(karolin);
 // Change Cathleen's hometown from New York to "Gotham City".
 
+cathleen[2] = "Gotham City";
+console.log(cathleen);
 // Remove "Pittsburgh" from Kristyn's array and add "Oakland".
+ 
+kristyn[2] = "Oakland";
+console.log(kristyn);
